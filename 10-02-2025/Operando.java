@@ -1,3 +1,3 @@
 enum Operando {
-	case SUMA, RESTA, MULT, DIV;
+	SUMA, RESTA, MULT, DIV;
 }
