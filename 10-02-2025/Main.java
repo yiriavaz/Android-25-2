@@ -2,7 +2,7 @@ class Main {
 
 	public static void main(String[] pepe) {
 
-		Operacion op = new Operacion(10.0, 10.0, Operando.SUMA);
+		Operacion op = new Operacion(10.0, 10.0, Operando.RESTA);
 		ICalculadora calculadora = new CalculadoraImpl();
 		
 		Double resultado = calculadora.calcular(op);
